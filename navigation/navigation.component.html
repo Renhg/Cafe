@@ -1,0 +1,41 @@
+<p>
+ 
+    <mat-toolbar color="primary">
+      <span>Luna Café</span>
+    </mat-toolbar>
+  <!-- #enddocregion toolbar-simple -->
+  </p>
+  
+  <p>
+    <mat-toolbar color="primary">
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon"[matMenuTriggerFor]="menu"> 
+      <span>Menu</span>
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item>Bebidas</button>
+        <button mat-menu-item>Refacciones</button>
+        <button mat-menu-item>Desayunos</button>
+        <button mat-menu-item>Almuerzos</button>
+        <button mat-menu-item>Cenas</button>
+      </mat-menu>
+      <span class="example-spacer"></span>
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon"[matMenuTriggerFor]="menu"> 
+        <span>Pedidos</span>
+      </button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item>Bebidas</button>
+        <button mat-menu-item>Refacciones</button>
+        <button mat-menu-item>Desayunos</button>
+        <button mat-menu-item>Almuerzos</button>
+        <button mat-menu-item>Cenas</button>
+      </mat-menu>
+      <span class="example-spacer"></span>
+      <button mat-icon-button class="example-icon login-icon" aria-label="Example icon-button with heart icon">
+        <mat-icon>login</mat-icon>
+      </button>
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+        <mat-icon>share</mat-icon>
+      </button>
+    </mat-toolbar>
+  </p>
+  
